@@ -12,8 +12,22 @@ package grasplms;
 public class Session {
   int startDate;
   int endDate;
-  Instructor intstructor;
+  Instructor instructor;
   Course course;
-  Client client;
-
+  Client client; 
+  
+  public Session(int startDate,int endDate, Instructor instructor, Course course, Client client){
+    this.startDate = startDate;
+    this.endDate = endDate;
+    this.instructor = instructor;
+    this.client = client;
+    this.course = course;
+  }
+  public void equal(Session another){
+      this.startDate = another.startDate;
+      this.endDate = another.endDate;
+      this.client = another.client;
+      this.instructor = another.instructor;
+      this.course = another.course;
+  }
 }
