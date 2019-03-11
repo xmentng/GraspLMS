@@ -10,5 +10,5 @@ package grasplms;
  * @author USER
  */
 public class Skill {
-    
+    Client client;
 }
