@@ -7,10 +7,11 @@ package grasplms;
 
 /**
  *
- * @author USER
+ * @author Tunde Pablo
  */
 class Course {
    String name;
    int maxSize;
    Client owner;
+   Subject topic;
 }
