@@ -7,9 +7,12 @@ package grasplms;
 
 /**
  *
- * @author USER
+ * @author Tunde Pablo
  */
 class Client {
     String name;
     int balance;
+    CourseRun courseRun;
+    Session session;
+    Skill accomplishments;
 }
