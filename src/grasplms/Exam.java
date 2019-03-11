@@ -12,5 +12,6 @@ package grasplms;
 public class Exam {
     int date;
     int grade;
-    Course[] courses;
+    Course courses;
+    Instructor instructors;
 }
