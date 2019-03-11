@@ -14,4 +14,6 @@ class Instructor {
     String name;
     Course course;
     InstOutage outage;
+    Session session;
+    Exam exam;
 }
