@@ -10,6 +10,7 @@ package grasplms;
  * @author USER
  */
 class Course {
+   String name;
    int maxSize;
    Client owner;
 }
