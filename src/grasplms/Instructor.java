@@ -7,8 +7,11 @@ package grasplms;
 
 /**
  *
- * @author USER
+ * @author Tunde Pablo;
  */
 class Instructor {
     char rating;
+    String name;
+    Course course;
+    InstOutage outage;
 }
