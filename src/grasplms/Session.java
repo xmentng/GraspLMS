@@ -7,7 +7,7 @@ package grasplms;
 
 /**
  *
- * @author USER
+ * @author Tunde Pablo
  */
 public class Session {
   int startDate;
@@ -15,11 +15,15 @@ public class Session {
   Instructor instructor;
   Course course;
   Client client; 
+  Eval eval;
   
-  public Session(int startDate,int endDate, Instructor instructor, Course course, Client client){
+   //Status Information
+    boolean delivered;
+    boolean confirmed;
+  
+  public Session(int startDate,int endDate, Course course, Client client){
     this.startDate = startDate;
     this.endDate = endDate;
-    this.instructor = instructor;
     this.client = client;
     this.course = course;
   }
@@ -30,4 +34,12 @@ public class Session {
       this.instructor = another.instructor;
       this.course = another.course;
   }
+  public void confirm(){
+      this.confirmed = true;
+      this.instructor = findAppropriateInstructor();
+  }
+
+    private Instructor findAppropriateInstructor() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
