@@ -10,5 +10,6 @@ package grasplms;
  * @author USER
  */
 class Client {
-    double balance;
+    String name;
+    int balance;
 }
