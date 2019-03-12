@@ -5,6 +5,8 @@
  */
 package grasplms;
 
+import java.util.List;
+
 /**
  *
  * @author Tunde Pablo
@@ -13,5 +15,6 @@ class Course {
    String name;
    int maxSize;
    Client owner;
-   Subject topic;
+   List<Subject> sujects;
+   List<Instructor> instructors;
 }
