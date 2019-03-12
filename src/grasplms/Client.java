@@ -5,6 +5,8 @@
  */
 package grasplms;
 
+import java.util.List;
+
 /**
  *
  * @author Tunde Pablo
@@ -12,7 +14,7 @@ package grasplms;
 class Client {
     String name;
     int balance;
-    CourseRun courseRun;
-    Session session;
-    Skill accomplishments;
+    List<CourseRun> courseRun;
+    List<Session> session;
+    List<Skill> skills;
 }
