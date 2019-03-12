@@ -5,6 +5,8 @@
  */
 package grasplms;
 
+import java.util.List;
+
 /**
  *
  * @author USER
@@ -12,6 +14,6 @@ package grasplms;
 public class Exam {
     int date;
     int grade;
-    Course courses;
-    Instructor instructors;
+    List<Course> courses;
+    List<Instructor> instructors;
 }
