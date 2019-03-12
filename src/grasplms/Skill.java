@@ -5,10 +5,12 @@
  */
 package grasplms;
 
+import java.util.List;
+
 /**
  *
  * @author USER
  */
 public class Skill {
-    Client client;
+    List<Client> clients;
 }
