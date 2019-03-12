@@ -5,6 +5,8 @@
  */
 package grasplms;
 
+import java.util.List;
+
 /**
  *
  * @author Tunde Pablo;
@@ -12,8 +14,8 @@ package grasplms;
 class Instructor {
     char rating;
     String name;
-    Course course;
-    InstOutage outage;
-    Session session;
-    Exam exam;
+    List<Course> courses;
+    List<InstOutage> outage;
+    List<Session> session;
+    List<Exam> exam;
 }
