@@ -5,11 +5,13 @@
  */
 package grasplms;
 
+import java.util.List;
+
 /**
  *
  * @author USER
  */
 public class CourseRun extends InstOutage {
     Course course;
-    Client client;
+   List<Client> clients;
 }
